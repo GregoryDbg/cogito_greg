@@ -21,15 +21,15 @@
 }
 
 .site_name {
+
   font-family: $home-font;
-  font-size: 120px;
+  font-size: 80px;
   color: white;
   flex: 2;
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
-
 }
 .catchphrase {
   font-family: $home-font;
@@ -38,7 +38,7 @@
   flex: 1;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-weight: 100;
 }
@@ -51,20 +51,18 @@
   justify-content: center;
 }
 .btn-medium-home {
-  color: #162b80;
+  color: #DB324D;
   border-radius: 50px;
   opacity: 1;
   width: 170px;
-  background-color: #b2b2b2;
+  background-color: white;
   font-weight: bolder;
   font-size: 40px;
-  opacity: 0.7;
 }
 
 
 .wrapper {
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding: 55px;
   background-color: #DB324D;
 }
 
