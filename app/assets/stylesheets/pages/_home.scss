@@ -4,40 +4,37 @@
  * ------------------------------------- */
 
 .banner {
-  color: #162b80;
-  text-align: center;
-  height: 100vh;
+  height: 92vh;
   background-size: cover !important;
-  display: flex;
-  align-items: center;
   position: relative;
-  flex-direction: column
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .banner-content {
   padding-top: 200px;
   padding-bottom: 130px;
-  font-family: $home-font;
 }
 
 .site_name {
-  text-shadow: 5px 5px 5px #F2EA57;
-  font-family: $home-font;
   font-size: 120px;
-  color: #162b80;
+  color: white;
+  font-weight: 100;
 }
 .catchphrase {
   font-size: 30px;
   letter-spacing: 2px;
+  color: white;
+  font-weight: 100;
 }
 
 .btn-medium-home {
   color: #162b80;
-  // border: 2px solid white;
   border-radius: 50px;
-  opacity: 1;
+  opacity: 0.7;
   width: 170px;
-  background-color: #F2EA57;
+  background-color: #b2b2b2;
   font-weight: bolder;
   font-family: $home-font;
   font-size: 40px;

@@ -5,7 +5,7 @@
   border: none;
   transition: all 0.3s ease;
   display: flex;
-  height: 65px;
+  height: 8vh;
   padding: 0px 20px;
   align-items: center;
   justify-content: space-between;
@@ -14,7 +14,6 @@
 }
 
 .logo {
-  font-family: $home-font;
   font-size: 25px;
   color: #162B80;
   font-weight: 700;
