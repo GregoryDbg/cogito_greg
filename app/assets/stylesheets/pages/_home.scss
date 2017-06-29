@@ -17,11 +17,11 @@
 .banner-content {
   padding-top: 90px;
   padding-bottom: 130px;
-  // font-family: $home-font;
+  font-family: $home-font;
 }
 
 .site_name {
-  // font-family: $home-font;
+  font-family: $home-font;
   font-size: 120px;
   color: white;
   flex: 2;
@@ -29,9 +29,10 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  font-weight: 100;
+
 }
 .catchphrase {
+  font-family: $home-font;
   font-size: 30px;
   letter-spacing: 2px;
   flex: 1;
@@ -64,6 +65,7 @@
 .wrapper {
   padding-top: 55px;
   padding-bottom: 55px;
+  background-color: #DB324D;
 }
 
 .card-static {
@@ -71,10 +73,10 @@
   border-radius: 5px;
   text-align: center;
   padding: 20px;
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12),0 1px 6px 0 rgba(0, 0, 0, 0.12);
   z-index: 1;
   margin-bottom: 20px;
   margin-top: 20px;
+  background-color: white;
 }
 
 .card-static > i {
