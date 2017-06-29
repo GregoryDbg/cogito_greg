@@ -4,43 +4,60 @@
  * ------------------------------------- */
 
 .banner {
-  color: #162b80;
-  text-align: center;
-  height: 100vh;
+  color: white;
+  height: 92vh;
   background-size: cover !important;
+  position: relative;
+  flex-direction: column;
   display: flex;
   align-items: center;
-  position: relative;
-  flex-direction: column
+  justify-content: center;
 }
 
 .banner-content {
-  padding-top: 200px;
+  padding-top: 90px;
   padding-bottom: 130px;
-  font-family: $home-font;
+  // font-family: $home-font;
 }
 
 .site_name {
-  text-shadow: 5px 5px 5px #F2EA57;
-  font-family: $home-font;
+  // font-family: $home-font;
   font-size: 120px;
-  color: #162b80;
+  color: white;
+  flex: 2;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-weight: 100;
 }
 .catchphrase {
   font-size: 30px;
   letter-spacing: 2px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
 }
 
+#home-button {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .btn-medium-home {
   color: #162b80;
-  // border: 2px solid white;
   border-radius: 50px;
   opacity: 1;
   width: 170px;
-  background-color: #F2EA57;
+  background-color: #b2b2b2;
   font-weight: bolder;
-  font-family: $home-font;
   font-size: 40px;
+  opacity: 0.7;
 }
 
 .wrapper {
