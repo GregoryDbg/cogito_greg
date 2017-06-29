@@ -17,11 +17,12 @@
 .banner-content {
   padding-top: 90px;
   padding-bottom: 130px;
-  // font-family: $home-font;
+  font-family: $home-font;
 }
 
 .site_name {
-  // font-family: $home-font;
+
+  font-family: $home-font;
   font-size: 80px;
   color: white;
   flex: 2;
@@ -31,6 +32,7 @@
   justify-content: center;
 }
 .catchphrase {
+  font-family: $home-font;
   font-size: 30px;
   letter-spacing: 2px;
   flex: 1;
