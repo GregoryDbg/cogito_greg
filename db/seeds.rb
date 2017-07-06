@@ -30,7 +30,7 @@ puts 'done'
 
 puts 'Creating users ...'
 students = []
-teacher1 = User.create!(first_name: "Anthony", last_name: "Larzilliere", email: "anthony@cogito.com", password:"cogito1234")
+teacher1 = User.create!(first_name: "Dear", last_name: "Proff", email: "proff@t-each.com", password:"password")
 teacher2 = User.create!(first_name: "Sylvain", last_name: "Peigney", email: "sylvain@cogito.com", password:"cogito1234")
 teacher3 = User.create!(first_name: "Charles", last_name: "Pernet", email: "charles@cogito.com", password:"cogito1234")
 teacher4 = User.create!(first_name: "Professeur", last_name: "Tournesol", email: "tournesol@cogito.com", password:"cogito1234")
@@ -39,7 +39,7 @@ teacher6 = User.create!(first_name: "Bobby", last_name: "Lapointe", email: "boby
 students << student1 = User.create!(first_name: "Mathilde", last_name: "Despax", email: "mathilde@gmail.com", password:"cogito1234")
 students << student2 = User.create!(first_name: "Bastien", last_name: "Pinot", email: "bastien@gmail.com", password:"cogito1234")
 students << student3 = User.create!(first_name: "Gregory", last_name: "Debargue", email: "gdebargue@gmail.com", password:"cogito1234")
-students << student4 = User.create!(first_name: "Josette", last_name: "Dupont", email: "josette@gmail.com", password:"cogito1234")
+students << student4 = User.create!(first_name: "Dear", last_name: "Student", email: "student@gmail.com", password:"password")
 students << student5 = User.create!(first_name: "Therese", last_name: "Martin", email: "therese@gmail.com", password:"cogito1234")
 students << student6 = User.create!(first_name: "Julie", last_name: "Lapine", email: "julie@gmail.com", password:"cogito1234")
 students << student7 = User.create!(first_name: "Fanny", last_name: "Robinet", email: "fanny@gmail.com", password:"cogito1234")
@@ -111,19 +111,19 @@ quizzs_data = [
     question: "Qui gagne la Première Guerre mondiale ?", answer:" Les Français, les Anglais, les Américains et les Italiens"
   },
   { quizz: plate_tectonics,
-    question: " Qu’est-ce que la subduction ?", answer:" C’est l’enfoncement de la plaque lithosphérique océanique dans le manteau lithosphérique"
+    question: " Qu’est-ce que la subduction ?", answer:" C’est l’enfoncement de la plaque lithosphérique océanique dans le manteau lithosphérique"
   },
   { quizz: plate_tectonics,
     question: " De quels fragments les ophiolites présents dans une chaîne de montagnes sont-ils à l’origine?", answer:" La croûte continentale"
   },
   { quizz: plate_tectonics,
-    question: " Sous quel état les roches métamorphiques subissent-elles des changements ? ", answer:"à l’état solide"
+    question: " Sous quel état les roches métamorphiques subissent-elles des changements ? ", answer:"à l’état solide"
   },
   { quizz: plate_tectonics,
-    question: " Sous quel état les roches métamorphiques subissent-elles des changements ? ", answer:" La croûte continentale"
+    question: " Sous quel état les roches métamorphiques subissent-elles des changements ? ", answer:" La croûte continentale"
   },
   { quizz: plate_tectonics,
-    question: " Une ancienne marge continentale passive est caractérisée par ?", answer:"faille normale + roches sédimentaires"
+    question: " Une ancienne marge continentale passive est caractérisée par ?", answer:"faille normale + roches sédimentaires"
   },
   { quizz: plate_tectonics,
     question: " Quel est le type des chaînes alpines?", answer:"des chaînes de collision"
@@ -135,16 +135,16 @@ quizzs_data = [
     question: " Quel est le type des chaînes alpines?", answer:"des chaînes de collision"
   },
   { quizz: plate_tectonics,
-    question: " Qu’est-ce que le moteur de la subduction ?", answer:" c’est la différence de densité entre l’asthénosphère et la croûte océanique"
+    question: " Qu’est-ce que le moteur de la subduction ?", answer:" c’est la différence de densité entre l’asthénosphère et la croûte océanique"
   },
   { quizz: plate_tectonics,
-    question: " Quelles sont les étapes mécaniques de la formation des chaînes alpines ?", answer:" Extension+ subduction+obduction+sédimentation"
+    question: " Quelles sont les étapes mécaniques de la formation des chaînes alpines ?", answer:" Extension+ subduction+obduction+sédimentation"
   },
   { quizz: plate_tectonics,
-    question: " Quels sont les témoins d’une collision ?", answer:" Les failles inverses, pli, nappe de charriage"
+    question: " Quels sont les témoins d’une collision ?", answer:" Les failles inverses, pli, nappe de charriage"
   },
   { quizz: plate_tectonics,
-    question: " Quels sont les indices minéralogiques d’une collision ?", answer:" Les roches métamorphiques"
+    question: " Quels sont les indices minéralogiques d’une collision ?", answer:" Les roches métamorphiques"
   },
   {  quizz: geometry,
     question: "Comment calcule-t-on l'aire d'un triangle ?",
@@ -208,7 +208,7 @@ classrooms_attributes = [
   },
   {
     name: "Seconde A",
-    teacher: teacher1
+    teacher: teacher2
   },
   {
     name: "Seconde B",
@@ -227,7 +227,7 @@ puts 'Seeding join table user classrooms...'
 user_classrooms_attributes = [
   {
     classroom: Classroom.first,
-    user: student1
+    user: student4
   },
   {
     classroom: Classroom.first,
@@ -243,7 +243,7 @@ user_classrooms_attributes = [
   },
   {
     classroom: Classroom.second,
-    user: student5
+    user: student4
   },
   {
     classroom: Classroom.second,
